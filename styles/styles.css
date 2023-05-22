@@ -139,6 +139,12 @@ button {
   background-color: hsl(256, 72%, 46%);
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+}
+
 .footer {
   position: fixed;
   left: 0;
