@@ -7,6 +7,11 @@
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles/styles.css">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Results summary component</title>
 </head>
 
@@ -15,54 +20,57 @@
   <main id="container">
 
     <section class="result">
-      <h3> Your Result </h3>
-      <p> 76 </p>
-      <p> out of 100 </p>
+      <h2 class="result-header"> Your Result </h2>
 
-      <h2> Great </h2>
+      <div class="result-description">
+        <span class="score" > 76 </span>
+        <span class="total-score" > of 100 </span>
+      </div>
+
+      <h2 class="result-outcome"> Great </h2>
       <p> You scored higher than 65% of the people
         who have taken these tests.
       </p>
     </section>
 
     <section class="summary">
-      <h3> Summary</h3>
+      <h2> Summary</h2>
 
       <div class="summary-item">
-        <img src="assets\images\icon-reaction.svg" alt="reaction">
-        <p class="reaction">Reaction</p>
-        <p class="score">80 <span class="hundred"> / 100 </span>
+        <img src="assets\images\icon-reaction.svg" alt="">
+        <h3 class="reaction">Reaction</h3>
+        <p class="total">80 <span class="hundred"> / 100 </span>
         </p>
       </div>
 
       <div class="summary-item">
-        <img src="assets\images\icon-memory.svg" alt="memory">
-        <p class="memory">Memory</p>
-        <p class="score">92 <span class="hundred"> / 100 </span>
+        <img src="assets\images\icon-memory.svg" alt="">
+        <h3 class="memory">Memory</h3>
+        <p class="total">92 <span class="hundred"> / 100 </span>
         </p>
       </div>
 
       <div class="summary-item">
-        <img src="assets\images\icon-verbal.svg" alt="verbal">
-        <p class="verbal">Verbal</p>
-        <p class="score">61 <span class="hundred"> / 100 </span>
+        <img src="assets\images\icon-verbal.svg" alt="">
+        <h3 class="verbal">Verbal</h3>
+        <p class="total">61 <span class="hundred"> / 100 </span>
         </p>
       </div>
 
       <div class="summary-item">
-        <img src="assets\images\icon-visual.svg" alt="visual">
-        <p class="visual">Visual</p>
-        <p class="score">72 <span class="hundred"> / 100 </span>
+        <img src="assets\images\icon-visual.svg" alt="">
+        <h3 class="visual">Visual</h3>
+        <p class="total">72 <span class="hundred"> / 100 </span>
         </p>
       </div>
 
-      <button> Continue</button>
+      <button type="submit"> Continue</button>
     </section>
   </main>
 
   <footer class="footer">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Sador Zerezghi</a>.
+    Coded by <a href="#">Sador Zerezghi🙂</a>
   </footer>
 </body>
 
