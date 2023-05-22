@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 95vh;
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -65,7 +65,6 @@ body {
 }
 
 .summary {
-  border: 1px solid black;
   border-radius: 20px;
   height: 450px;
   width: 300px;
@@ -74,6 +73,51 @@ body {
 .summary-item {
   display: flex;
   border: 1px solid black;
+}
+
+.reaction {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 24px;
+  border-radius: 10px;
+  color: hsl(0, 100%, 67%);
+  background-color: hsla(0, 100%, 67%, 0.2);
+}
+
+.memory {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 24px;
+  border-radius: 10px;
+  color: hsl(39, 100%, 56%);
+  background-color: hsla(39, 100%, 56%, 0.2);
+}
+
+.verbal {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 24px;
+  border-radius: 10px;
+  color: hsl(166, 100%, 37%);
+  background-color: hsla(166, 100%, 37%, 0.2);
+}
+
+.visual {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 24px;
+  border-radius: 10px;
+  color: hsl(234, 85%, 45%);
+  background-color: hsla(234, 85%, 45%, 0.2);
+}
+
+.total {
+  text-align: right;
+  width: 100%;
 }
 
 .footer {
@@ -112,6 +156,46 @@ body {
   .total-score {
     opacity: 0.6;
     color: hsl(241, 100%, 89%);
+  }
+  .reaction {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 24px;
+    border-radius: 10px;
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.2);
+  }
+  .memory {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 24px;
+    border-radius: 10px;
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.2);
+  }
+  .verbal {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 24px;
+    border-radius: 10px;
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.2);
+  }
+  .visual {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 24px;
+    border-radius: 10px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.2);
+  }
+  .total {
+    text-align: right;
+    width: 100%;
   }
   .footer {
     position: relative;
