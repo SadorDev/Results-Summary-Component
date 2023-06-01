@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 454px;
-  width: 300px;
+  width: 350px;
   border-radius: 20px;
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
@@ -69,9 +69,7 @@ body {
 .summary {
   display: flex;
   flex-direction: column;
-  /* margin: 25px; */
-  width: 344px;
-  /* height: 400px; */
+  width: 350px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   box-shadow: 10px 10px 1px hsla(224, 30%, 27%, 0.3);

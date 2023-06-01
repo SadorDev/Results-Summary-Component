@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 454px;
-  width: 300px;
+  width: 350px;
   border-radius: 20px;
   background: linear-gradient(hsl(252, 100%, 67%), hsla(241, 81%, 54%, 1));
 }
@@ -71,12 +71,10 @@ body {
 .summary {
   display: flex;
   flex-direction: column;
-  /* margin: 25px; */
-  width: 344px;
-  /* height: 400px; */
+  width: 350px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 10px 10px 1px hsla(224, 30%, 27%, .3);
+  box-shadow: 10px 10px 1px hsla(224, 30%, 27%, 0.3);
 }
 
 .summary h2 {
@@ -142,7 +140,7 @@ button {
   border-radius: 20px;
   padding: 15px 32px;
   font-size: 16px;
-  margin: 0px 20px 20px 20px;;
+  margin: 0px 20px 20px 20px;
   text-align: center;
   color: white;
   background-color: hsla(256, 72%, 46%, 1);
