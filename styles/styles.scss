@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 100vh;
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -20,8 +20,8 @@ body {
 .result {
   display: flex;
   flex-direction: column;
-  height: 454px;
-  width: 350px;
+  height: 400px;
+  width: 300px;
   border-radius: 20px;
   background: linear-gradient(hsl(252, 100%, 67%), hsla(241, 81%, 54%, 1));
 }
@@ -48,7 +48,7 @@ body {
 
 .score {
   color: white;
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 .total-score {
@@ -71,10 +71,10 @@ body {
 .summary {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  width: 300px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  box-shadow: 10px 10px 1px hsla(224, 30%, 27%, 0.3);
+  box-shadow: 1px 5px 1px hsla(224, 30%, 66%, 0.3);
 }
 
 .summary h2 {
@@ -89,7 +89,7 @@ body {
   display: flex;
   align-items: center;
   height: 5px;
-  margin: 20px 20px 20px 20px;
+  margin: 3px 20px 20px 20px;
   padding: 24px;
   border-radius: 10px;
   color: hsl(0, 100%, 67%);
@@ -100,7 +100,7 @@ body {
   display: flex;
   align-items: center;
   height: 5px;
-  margin: 20px 20px 20px 20px;
+  margin: 3px 20px 20px 20px;
   padding: 24px;
   border-radius: 10px;
   color: hsl(39, 100%, 56%);
@@ -111,7 +111,7 @@ body {
   display: flex;
   align-items: center;
   height: 5px;
-  margin: 20px 20px 20px 20px;
+  margin: 3px 20px 20px 20px;
   padding: 24px;
   border-radius: 10px;
   color: hsl(166, 100%, 37%);
@@ -122,7 +122,7 @@ body {
   display: flex;
   align-items: center;
   height: 5px;
-  margin: 20px 20px 20px 20px;
+  margin: 3px 20px 20px 20px;
   padding: 24px;
   border-radius: 10px;
   color: hsl(234, 85%, 45%);
@@ -154,16 +154,14 @@ button:hover {
 
 // Footer
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  position: static;
   width: 100%;
   text-align: center;
   padding-block: 1rem;
 }
 
 // Media Query
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 660px) {
   #container {
     display: flex;
     flex-direction: column;
