@@ -17,7 +17,9 @@ body {
 }
 
 .result {
-  height: 400px;
+  display: flex;
+  flex-direction: column;
+  height: 454px;
   width: 300px;
   border-radius: 20px;
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
@@ -67,8 +69,12 @@ body {
 .summary {
   display: flex;
   flex-direction: column;
-  margin: 25px;
-  width: 300px;
+  /* margin: 25px; */
+  width: 344px;
+  /* height: 400px; */
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 10px 1px hsla(224, 30%, 27%, 0.3);
 }
 
 .summary h2 {
@@ -83,7 +89,7 @@ body {
   display: flex;
   align-items: center;
   height: 5px;
-  margin: 15px 0 15px 5px;
+  margin: 20px 20px 20px 20px;
   padding: 24px;
   border-radius: 10px;
   color: hsl(0, 100%, 67%);
@@ -94,7 +100,7 @@ body {
   display: flex;
   align-items: center;
   height: 5px;
-  margin: 15px 0 15px 5px;
+  margin: 20px 20px 20px 20px;
   padding: 24px;
   border-radius: 10px;
   color: hsl(39, 100%, 56%);
@@ -105,7 +111,7 @@ body {
   display: flex;
   align-items: center;
   height: 5px;
-  margin: 15px 0 15px 5px;
+  margin: 20px 20px 20px 20px;
   padding: 24px;
   border-radius: 10px;
   color: hsl(166, 100%, 37%);
@@ -116,7 +122,7 @@ body {
   display: flex;
   align-items: center;
   height: 5px;
-  margin: 10px 0 15px 5px;
+  margin: 20px 20px 20px 20px;
   padding: 24px;
   border-radius: 10px;
   color: hsl(234, 85%, 45%);
@@ -133,7 +139,7 @@ button {
   border-radius: 20px;
   padding: 15px 32px;
   font-size: 16px;
-  margin: 10px 10px 0px 30px;
+  margin: 0px 20px 20px 20px;
   text-align: center;
   color: white;
   background-color: hsl(256, 72%, 46%);
@@ -154,7 +160,7 @@ button:hover {
   padding-block: 1rem;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 750px) {
   #container {
     display: flex;
     flex-direction: column;
